@@ -1,0 +1,125 @@
+                        /* PRIMERA PARTE HOME*/
+.envios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(187, 187, 187);
+    border: 1px solid black;
+}
+
+#local img{
+    max-width: 100%;
+    max-height: 60%;
+}
+
+.envios nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.hora{
+    margin-left: 25px;
+    transition: all 1s;
+}
+.hora:hover {
+    transform: scale(1.1);
+}
+
+.envios nav img{
+    width: 50px;
+}
+.envios nav img:hover{
+    filter:saturate(200%);
+    transform: scale(1.1);
+}
+
+
+                                /* PRODUCTOS HOME*/
+#productohomeMain{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tituloproductoMain{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: orange;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tituloproductoMain:hover{
+    filter: sepia(300);
+}
+
+.productMain div img:hover{
+        transform: scale(1.1);
+}
+.productMains{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.productMain{
+    display:flex;
+    margin: 20px;
+    border: 1px solid black;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+
+.consultarMain {
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+}
+
+.consultarMain a {
+    text-decoration: none;
+    color: white;
+  }
+
+.consultarMain:hover{
+    filter: sepia(300%);
+} 
+
+                                 /* MAPA HOME*/
+
+#map {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: orange;
+}
+
+.mapa{
+    flex-wrap: wrap;
+    position:relative;
+    padding: 30px;
+    
+}
+.mapa iframe{
+    flex-wrap: wrap;
+    border: 12px solid black;
+    height: 300px;
+    width: 300px;
+    position:relative;
+}
+.mapadata{
+    font-size:medium;
+    position: relative;
+    bottom: 00px;
+    text-align: center;
+}
+
+

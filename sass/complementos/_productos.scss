@@ -1,0 +1,53 @@
+@import '../base/_general.scss';
+
+main {
+    section {
+        div{
+            .somos {
+                @include titulos;
+            }
+        }
+    }
+}
+
+.product div img:hover{
+        transform: scale(1.1);
+}
+
+.fondoproduc {
+    background-color:rgb(250, 211, 189);
+  }
+  
+.product {
+    background-color:rgb(255, 255, 255);
+    color:black;
+    margin: 20px;
+    border: 1px solid black;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+  }
+
+.consultar {
+    border: 1px solid black;
+    background-color: orange;
+}
+
+.consultar a {
+    text-decoration: none;
+    color: white;
+  }
+
+.consultar:hover{
+    filter: sepia(300%);
+} 
+
+#proximamente {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    font-size: x-large;
+    text-align: center;
+    justify-content: center;
+}
+

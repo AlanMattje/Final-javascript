@@ -1,0 +1,21 @@
+@import '../base/_general.scss';
+
+.faq{
+            text-align: center;
+            background-color:rgba(250, 237, 229, 0.671);
+    div {
+        h1 {
+            @include titulos;
+        }
+        
+        .preguntas{
+            section {
+                text-align: center;
+                margin: 10px;
+                padding: 10px;
+                color: black
+            }
+        }
+        
+    }
+}

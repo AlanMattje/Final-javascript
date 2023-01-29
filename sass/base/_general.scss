@@ -1,0 +1,28 @@
+* {
+margin: 0%;
+padding:0%;
+align-items: center;
+text-decoration: none;
+}
+
+@mixin titulos {
+        padding: 10px;
+        background-color: orange;
+        font-size: x-large;
+        text-align: center;
+        justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+    #map iframe{
+        display: flex;
+        justify-content: start;
+        height: 200px;
+        width: 200px;
+    }
+
+    .footer div div{
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+    }

@@ -1,0 +1,25 @@
+@import '../base/_general.scss';
+
+main {
+    .somos {
+        @include titulos;
+    }
+    .nosotros {
+        p {
+            font-size: x-large;
+            padding: 2%;
+            margin: 2%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+    }
+    .valores { 
+        div {
+            padding: 4%;
+            font-size: x-large;
+            display: inline-flex;
+            text-align: center;
+            justify-content: center;  
+        }
+    }
+    }

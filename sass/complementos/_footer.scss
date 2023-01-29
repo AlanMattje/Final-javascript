@@ -1,0 +1,105 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer div div{
+    background-color: #e4e3e3;
+    display: flex;
+    justify-items: start;
+    width: 100%; 
+}
+
+.logofooter a{
+    display: flex;
+    justify-content: center;
+}
+
+.logofooter img{
+    top: 2%;
+    left: 30%;
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.link a{
+    text-decoration: none;
+    background-color:  #e2ceb6;
+    color: black;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid black;
+  }
+
+.link {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    color: black;
+    padding: 1%;
+    margin-left: 5%;
+    align-items:flex-start;
+}
+
+.link a:hover {
+    background-color:  #d19244;
+    color:black;
+  }
+
+#mediofooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes{
+    display: flex;
+}
+
+.redes div{
+    display: flex;
+    padding: 2%;
+}
+
+.redes div img{
+    max-width: 70px;
+    max-height: 70px;
+    transition: all 2s;
+}
+
+#seguinos{
+    padding: 2%;
+    font: bold;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+}
+
+#datafiscal{
+    display: flex;
+    justify-content: end;   
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    transition: all 2s;
+}
+
+.whatsapp img{
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.redes div img:hover {
+    transform: scale(1.1);
+}
+.whatsapp:hover{
+    transform: scale(1.3);
+}
